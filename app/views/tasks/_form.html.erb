@@ -1,0 +1,9 @@
+<%= bootstrap_form_for(@task) do |f| %>
+  <%= f.text_field :title %>
+
+  <%= f.text_field :details %>
+
+  <%= f.check_box :completed %>
+<br>
+  <%= f.submit %>
+<% end %>
